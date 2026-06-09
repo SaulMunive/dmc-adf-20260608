@@ -1,0 +1,17 @@
+{
+	"name": "ds_sql_ventas",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnk_azure_sql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Fact_Ventas"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
